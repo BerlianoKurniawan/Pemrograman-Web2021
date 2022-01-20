@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article - Daily News</title>
+    <link rel="stylesheet" type="text/css" href="src/res/layout.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .card {
+            background-color: #f1f1f1;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        img {
+            width: 800px;
+        }
+    </style>
+</head>
+    <body>
+        <div class="header">
+            <h1>Article - Daily News</h1>
+        </div>
+        <div id="topnav" class="topnav">
+            <a href="article.php">- Back</a>
+        </div>
+        <div class="content">
+            <div class="card">
+                <h1>Pratama Arhan Ingin Merumput di Luar Negeri, Bagaimana Studinya di Udinus?</h1>
+                <p><i>Selasa, 11 Jan 2022 19:02 WIB</i></p>
+                <br>
+                <br>
+                <center>
+                    <img 
+                        src="src/img/1. pratama-arhan_169.jpeg"
+                        alt="Pratama Arhan Ingin Merumput di Luar Negeri, Bagaimana Studinya di Udinus?"
+                    >
+                </center>
+                <br>
+                <br>
+                <center>
+                    <div style="width: 950px; text-align: justify;">
+                        <p>
+                            Semarang - Pemain Timnas Indonesia Pratama Arhan memiliki impian berkarier di luar negeri, bahkan 
+                            dikabarkan sudah dilirik tim dari Korea Selatan. Jika benar demikian bagaimana dengan pendidikannya 
+                            di Universitas Dian Nuswantoro (Udinus) Semarang? Arhan kini tercatat sebagai mahasiswa semester 
+                            3 jurusan ekonomi manajemen Udinus. Dengan prestasinya Arhan diberikan beasiswa hingga S2. Namun 
+                            Arhan juga punya impian berkarier di luar negeri. "Saya ingin karier juga ke luar. Belum tahu juga 
+                            (ke mana). Tapi kalau keinginan, idola sejak kecil, ke Manchester City," kata Arhan usai penyerahan 
+                            penghargaan dan beasiswa di kampus Udinus Semarang, Selasa (11/1/2022).
+                        </p>
+                        <p>
+                            Saat ditanya soal ajakan tim-tim luar negeri, Arhan mengaku belum tahu karena yang dihubungi adalah 
+                            pihak manajemen. Namun jika rumor yang beredar soal tim Korea berminat merekrutnya, Arhan mengaku 
+                            siap. "Saja juga kurang tahu yang Korea. Mungkin rumor karena agen yang dihubungi. Kalau iya ya 
+                            siap juga sih," tegasnya. Namun ia menegaskan saat ini fokus mendukung PSIS Semarang di Liga 1 dan 
+                            bersiap untuk Piala AFF U-23. "Pertandingan dalam waktu dekat ini saya akan pergi ke Bali, PSIS 
+                            lagi di liga 1," kata pemuda asal Blora itu.
+                        </p>
+                        <p>
+                            Jika bekarier di luar negeri, ternyata beasiswa Arhan di Udinus tidak hangus dan dia tetap bisa 
+                            berkuliah lewat daring dengan waktu yang disesuaikan. Rektor Udinus, Prof Edi Noersasongko 
+                            mengatakan selama ini Arhan juga melakukan hal serupa. "Mas Arhan walau ada di manapun seluruh dunia, 
+                            dia bisa ambil waktu untuk kuliah secara online," kata Edi. Dalam penyerahan Beasiswa itu Edi juga 
+                            memberikan MacBook untuk sarana belajar online Arhan. Ia berharap akademik Arhan tidak tertinggal 
+                            oleh prestasi sepak bolanya yang gemilang. "Kita dukung sukses di prestasi dan studi. Jadi tidak 
+                            hanya dapat ijazah saja, juga ilmunya, " ujarnya.
+                        </p>
+                        <p>Sumber: https://www.detik.com/edu/edutainment/d-5893795/pratama-arhan-ingin-merumput-di-luar-negeri-bagaimana-studinya-di-udinus</p>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="footer">
+            <h3>Copyright &copy; <script>document.write(new Date().getFullYear())</script> by Daily News. All Rights Reserved.</h3>
+        </div>
+
+
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var header = document.getElementById("topnav");
+            var fixed = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > fixed) {
+                    header.classList.add("fixed");
+                } else {
+                    header.classList.remove("fixed");
+                }
+            }
+        </script>
+    </body>
+</html>

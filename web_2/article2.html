@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article - Daily News</title>
+    <link rel="stylesheet" type="text/css" href="src/res/layout.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .card {
+            background-color: #f1f1f1;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        img {
+            width: 800px;
+        }
+    </style>
+</head>
+    <body>
+        <div class="header">
+            <h1>Article - Daily News</h1>
+        </div>
+        <div id="topnav" class="topnav">
+            <a href="article.php">- Back</a>
+        </div>
+        <div class="content">
+            <div class="card">
+                <h1>Sibuk di Timnas Indonesia, Arhan Terpaksa Kuliah Jarak Jauh</h1>
+                <p><i>Selasa, 11 Jan 2022 20:28 WIB</i></p>
+                <br>
+                <br>
+                <center>
+                    <img 
+                        src="src/img/2. timnas-indonesia-vs-timnas-uni-emirat-arab-uea-2_169.jpeg"
+                        alt="Sibuk di Timnas Indonesia, Arhan Terpaksa Kuliah Jarak Jauh"
+                    >
+                </center>
+                <br>
+                <br>
+                <center>
+                    <div style="width: 950px; text-align: justify;">
+                        <p>
+                            Jakarta, CNN Indonesia -- Bintang baru sepak bola Indonesia, Pratama Arhan, harus 
+                            menjalani kuliah jarak jauh karena kesibukan di lapangan hijau. Arhan yang sedang 
+                            naik daun setelah membela Timnas Indonesia di Piala AFF 2020 sibuk menjalani peran 
+                            sebagai bek kiri di tim Merah Putih dalam dua tahun terakhir, baik bersama skuad 
+                            junior dan senior. "Kurang tahu semester berapa," ujar Arhan dalam acara kegiatan 
+                            'Sinergi Untuk Prestasi' yang digelar kampus di mana bek PSIS itu menjalani kuliah, 
+                            Universitas Dian Nuswantoro (Udinus) Semarang.
+                        </p>
+                        <p>
+                            Rektor Udinus, Edi Noersasongko, berharap Arhan sukses di lapangan dan di pendidikan. 
+                            Edi memberikan sebuah komputer jinjing kepada Arhan, yang diharapkan dapat dimanfaatkan 
+                            untuk selalu mengikuti perkuliahan dari jauh. "Jangan lupa belajar. Tetap ikuti kuliah 
+                            di mana pun berada," pesan Edi. Usai Piala AFF 2020, Arhan menjadi salah satu pemain 
+                            yang disebut sedang diincar klub luar negeri. Namun hingga kini, belum ada keterangan 
+                            resmi dari PSIS mengenai keseriusan klub asing terhadap Arhan. Mengenai karier sepak bola, 
+                            Arhan menyatakan kesiapan merantau mengikuti jejak rekan-rekan di Timnas Indonesia seperti 
+                            Asnawi Mangkualam, Witan Sulaeman, dan Egy Maulana Vikri. "Saya siap main di luar," ujar 
+                            pemain yang mengidolai klub Manchester City itu.
+                        </p>
+                        <p>Sumber: https://www.cnnindonesia.com/olahraga/20220111201230-142-745418/sibuk-di-timnas-indonesia-arhan-terpaksa-kuliah-jarak-jauh</p>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="footer">
+            <h3>Copyright &copy; <script>document.write(new Date().getFullYear())</script> by Daily News. All Rights Reserved.</h3>
+        </div>
+
+
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var header = document.getElementById("topnav");
+            var fixed = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > fixed) {
+                    header.classList.add("fixed");
+                } else {
+                    header.classList.remove("fixed");
+                }
+            }
+        </script>
+    </body>
+</html>
